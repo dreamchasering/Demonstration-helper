@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+     />
+    <!--定义一个虚拟的视图，方便Fragment能够替换该视图，已达到Fragment的视图内容能够 显示在屏幕上的效果 -->
+
+    
+  

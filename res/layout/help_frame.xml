@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffffff">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"  
+        android:scrollbars="vertical" 
+        android:textColor="#0397C7"
+        android:textSize="18sp"
+        android:text="PPT演示功能模块\n
+①智能体感控制：开启体感控制以后，用户可以通过（左右、上下）摇晃手机控制PPT翻页，该功能可根据需求关闭。\n
+②音量键控制：通过手机音量调节键控制PPT翻页。\n
+③按钮控制：用户可以通过点击“PPT演示”界面的按钮控制PPT翻页。\n\n
+无线鼠标功能模块\n
+①智能体感控制：开启体感控制以后，用户可以通过在空中晃动手机来控制电脑上鼠标的移动。\n
+②触摸板控制：用户可以通过在手机屏幕上触摸板区域内滑动手指控制电脑上鼠标的移动。\n\n
+媒体播放功能模块\n	此模块实现了手机远程控制媒体播放，用户可以通过点击“媒体播放”界面按钮控制视频播放的暂停、开始、快进、快退。\n
+        如有任何问题，您可通过以下方式联系我们：\n
+        EMAIL:815597717@qq.com" />
+
+</LinearLayout>

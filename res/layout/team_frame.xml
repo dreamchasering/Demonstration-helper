@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="#ffffffff" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#0397C7"
+        android:textSize="18sp"
+        android:lineSpacingExtra="5dp"
+        android:text="      我们是一支来自河北大学的青春向上的学生团队，热爱编程并且具有着丰富的软件开发经验。在队长王哲的带领下，队员刘恒、王婧、李君、王聪丽一直坚持不懈地致力于移动软件应用的开发，希望能不断做出更好的作品，来和大家见面。\n\n     如您在使用过程中有任何的问题，都可以通过帮助与反馈中的联系方式联系我们，我们必将竭诚为您解答。" />
+    
+
+    
+
+</LinearLayout>

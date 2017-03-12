@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >   
+      
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+		<LinearLayout  
+       		 android:id="@+id/tabText"  
+       		 android:layout_marginTop="10dp"  
+       		 android:layout_width="fill_parent"  
+       		 android:layout_height="wrap_content"  
+      	     android:orientation="horizontal"
+      	   >  
+       		 <TextView  
+           		 android:id="@+id/text1"  
+          		 android:layout_width="fill_parent"  
+           		 android:layout_height="fill_parent"  
+            	 android:layout_weight="1.0"  
+            	 android:gravity="center"  
+            	 android:text="媒体控制"  
+            	 android:textColor="#0397C7"  
+            	 android:textSize="20sp" />  
+  
+        	<TextView  
+            	android:id="@+id/text2"  
+            	android:layout_width="fill_parent"  
+            	android:layout_height="fill_parent"  
+            	android:layout_weight="1.0"  
+            	android:gravity="center"  
+            	android:text="无线鼠标"  
+            	android:textColor="#0397C7"  
+            	android:textSize="20sp" />   
+
+        </LinearLayout>  
+        
+         <ImageView  
+        android:id="@+id/cursor"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:scaleType="matrix"  
+        android:layout_alignParentBottom="true"  
+        android:src="@drawable/slide" />  <!-- 用于显示选中frame文字下方的图片 -->
+    </RelativeLayout>  
+    
+    <com.code.Remote.MyViewPager
+        android:id="@+id/vPager"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_gravity="center"  
+        android:layout_weight="1.0"  
+        android:background="#FFFFFF"
+        android:flipInterval="30"  
+        android:persistentDrawingCache="animation" />  <!-- low background，粉色 -->
+    
+
+</LinearLayout>

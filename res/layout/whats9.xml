@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="#FFFFFF" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  >
+    
+    
+    <Button
+              android:id="@+id/startBtn"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginBottom="120dp"
+              android:gravity="center"
+              android:text="开始体验"
+              android:textSize="18sp"
+              android:textColor="#fff"
+              android:background="@drawable/btn_style_green"              
+			  android:layout_gravity="center_vertical"
+			  android:onClick="startbutton"
+              />
+</RelativeLayout>

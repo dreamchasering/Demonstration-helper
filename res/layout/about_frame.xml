@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#0397C7"
+        android:textSize="18sp"
+        android:lineSpacingExtra="5dp"
+        android:text="PPT演示功能\n
+       可通过手机远程控制电脑演示PPT\n\n
+无线鼠标功能\n
+       手机远程控制鼠标移动，并可点击左右键。\n\n
+媒体播放功能模块\n	
+       手机远程控制媒体播放，可实现视频播放的暂停、开始、快进、快退。\n" />
+
+</RelativeLayout>
+

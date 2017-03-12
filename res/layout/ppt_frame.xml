@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/jbbg" >
+    
+     <com.code.Remote.MyButton
+        android:id="@+id/threecolor_red_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/threecolor_red" />
+
+    <com.code.Remote.MyButton
+        android:id="@+id/threecolor_green_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/threecolor_green" />
+
+    <com.code.Remote.MyButton
+        android:id="@+id/threecolor_blue_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/threecolor_blue" />
+
+      <com.code.Remote.MyButton
+        android:id="@+id/threecolor_yellow_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/threecolor_yellow" />
+
+   <!--  <com.code.Remote.MyButton
+        android:id="@+id/threecolor_cyan_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/threecolor_cyan" />
+
+    <com.code.Remote.MyButton
+        android:id="@+id/threecolor_purple_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/threecolor_purple" />
+    
+    <com.code.Remote.MyButton
+        android:id="@+id/threecolor_white_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/threecolor_white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/threecolor_red_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:textSize="35sp"
+        android:text="上一页" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="22dp"
+        android:text="下一页"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/textView4"
+        android:text="停止控制"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="36dp"
+        android:text="开始控制"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="27sp" />
+         -->
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"    
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="180dp"
+        android:text="  按钮功能：\n
+“开始”、“停止”：开启、停止体感控制功能\n
+“上一页”“下一页” ：控制PPT翻页
+"
+        android:textColor="#FFFFFF" />   
+
+</RelativeLayout>
